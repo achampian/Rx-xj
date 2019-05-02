@@ -1,0 +1,17 @@
+.kin{
+    background: linear-gradient(to top,#efa2a9 0%,#f8d7da 100%);
+}
+.yihang a:hover{
+    color: #ffc107 !important;
+}
+.color{
+    color: #34ce57 !important;
+}
+.color:hover{
+    color: #b21f2d;
+    text-decoration: none;
+}
+.lvse{
+    color: rgba(153,178,58,0.8);
+    font-weight: 500;
+}

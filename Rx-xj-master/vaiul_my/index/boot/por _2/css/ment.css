@@ -1,0 +1,24 @@
+.colors{
+    color: cornsilk;
+}
+.colors:hover{
+    color: cornsilk;
+    text-decoration: none;
+}
+._:hover{
+    text-decoration: none;
+}
+._{
+    text-decoration: none;
+}
+.yihang{
+    display: flex;
+    padding: 0.5rem;
+}
+.yihang {
+color: cornsilk;
+    font-size: 1.2rem;
+}
+.yihang>p{
+    margin: 0;
+}
