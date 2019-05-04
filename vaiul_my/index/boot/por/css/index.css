@@ -1,3 +1,27 @@
-div{
-background-image:url(../../img/files/files/583e32cb23b2f.jpg) ;
+.my_header{
+     width: 100%;
+    height: 19.5rem;
+ }
+.my_footer{
+    width: 100%;
+    height: 13.8rem;
+}
+body{
+    background-color:rgb(245,245,245);
+}
+.biao{
+    width: 5rem;
+}
+.big{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.center{
+    display: inline-block;
+    margin: 0;
+}
+.center>span{
+    vertical-align: middle;
 }

@@ -9,10 +9,11 @@
 }
 
 .logo_img{
-    width: 5rem;
+    width: 15rem;
 }
 .name{
     color: #5a6268;
+    font-size: 1.5rem;
     font-family: 黑体;
     font-weight: bold;
 }
@@ -23,7 +24,8 @@
     font-weight: 600;
 }
 .nav>li:hover{
-    background:linear-gradient(to top, #fff 0%,rgb(139,211,237) 50%,#fff 100%);
+    background:#ddd;
+    border-radius: 10%;
 }
 
 .nav{

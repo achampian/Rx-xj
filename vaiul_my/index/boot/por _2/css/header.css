@@ -1,0 +1,44 @@
+.kong{
+    text-align: center;
+}
+.navbar-nav{
+    justify-content: center;
+}
+.evre{
+    color: #efa2a9;
+}
+.evre:hover{background-color: #f5c6cb;
+border-radius: 20%;
+color: #efa2a9;
+}
+#content{
+    justify-content: center;
+}
+.img{
+    width: 1.5rem;
+}
+.btn{
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+    border: 3px solid #efa2a9;
+    border-radius: 10%;
+}
+.row{
+    background: linear-gradient(to top,#f8d7da 0%,#efa2a9 100%);
+}
+.row>p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom:0 ;
+}
+.row>p:first-child{
+    color: cornsilk;
+    font-size: 1.5rem;
+}
+.row>p>a{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
