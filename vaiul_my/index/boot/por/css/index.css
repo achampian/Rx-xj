@@ -24,4 +24,19 @@ body{
 }
 .center>span{
     vertical-align: middle;
+    margin-left: 1rem;
+}
+.user{
+    background-color: transparent;
+    border: 1px solid #b9bbbe;
+    padding: 1rem;
+    width: 90%;
+}
+.user>input{
+     height: 2.7rem;
+     border:2px solid #dddddd;
+     padding: 0.5rem;
+}
+.user>input:focus{
+    border-color:#fff !important;
 }
