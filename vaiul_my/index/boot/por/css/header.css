@@ -9,7 +9,7 @@
 }
 
 .logo_img{
-    width: 15rem;
+    width: 8rem;
 }
 .name{
     color: #5a6268;
@@ -23,9 +23,8 @@
     color: #666;
     font-weight: 600;
 }
-.nav>li:hover{
+.nav>li>a:hover{
     background:#ddd;
-    border-radius: 10%;
 }
 
 .nav{
@@ -63,4 +62,9 @@
 }
 #conter>.container>.navbar-nav:last-child{
    border: 0;
+}
+.nav-link{
+    border:1px solid #171a1d ;
+    border-radius: 3%;
+    margin: 0.5rem;
 }

@@ -1,0 +1,17 @@
+
+body{
+    background: url("../../img/bg.jpg") no-repeat;
+
+    height:100%;
+
+    width:100%;
+
+    overflow: hidden;
+
+    background-size:cover;
+}
+.only{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

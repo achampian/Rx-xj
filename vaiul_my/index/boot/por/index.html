@@ -10,11 +10,23 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/ment.css"/>
 </head>
+<style>
+    *{margin: 0;padding: 0}
+</style>
 <body>
+
 <!--header start-->
 <iframe src="header.html" frameborder="0" scrolling="0" class="my_header"></iframe>
 <!--header end-->
+<div class="mb-5 b_img">
+    <div  class="search">
+        <a id="sc" href="javascript:">
+            <img class="img_search" src="../img/search_128px_29634_easyicon.net.png" alt=""/>
+            <input class="input_search" type="text"/>
+        </a>
+    </div>
 <div class="carousel " data-ride="carousel" id="demo">
     <!--lb start -->
     <div class="carousel-inner">
@@ -40,25 +52,25 @@
     </ul>
     <!-- -->
     <a href="#demo" data-slide="next" class="carousel-control-next">
-        <span class="carousel-control-next-icon"></span>
+        <span><img src="../img/next.png" alt=""/></span>
     </a>
     <a href="#demo" data-slide="prev" class="carousel-control-prev">
-        <span class="carousel-control-prev-icon"></span>
+        <span><img src="../img/prev.png" alt=""/></span>
     </a>
 </div>
 <!--lb end-->
 <!--1l start-->
-<div class="container">
-    <div class="row">
+<div class="container p-0">
+    <div class="row m-0 p-0 ">
             <!-- left start-->
         <div class="col-lg-8 col-md-12 p-0">
                 <p class="center">
                     <img class="biao mb-2" src="../img/biao.png" alt=""/>
                     <span class="big">新闻中心</span>
                 </p>
-                    <div class="row mb-2 p-0">
+                    <div class="row m-0 mb-2 p-0">
                         <div>
-                            <img src="../img/zlr.jpg" alt=""/>
+                            <img class="w-100" src="../img/zlr.jpg" alt=""/>
                         </div>
                         <div class="ml-2">
                         <p>
@@ -69,9 +81,9 @@
                         <p>仙剑官方与GoodSmile合作款赵灵儿粘土人</p>
                         </div>
                     </div>
-                <div class="row p-0">
+                <div class="row m-0 p-0 w-100">
                     <div>
-                        <img src="../img/xj.jpg" alt=""/>
+                        <img class="w-100" src="../img/xj.jpg" alt=""/>
                     </div>
                     <div class="ml-2">
                         <p>
@@ -86,27 +98,101 @@
         <!-- left end-->
         <!-- right start-->
         <div class="col-lg-4 col-md-12 mt-2 center">
-         <p class="m-0 center"><img src="../img/user1.png" alt=""/><span class="big">会员中心</span></p>
-            <div class="user">
+         <p class="ml-3 center"><img src="../img/user1.png" alt=""/><span class="big">会员中心</span></p>
+            <div class="user ml-3">
                 <input class="input-group mb-2" placeholder="请输入用户名" type="text"/>
                 <input class="input-group" placeholder="请输入密码" type="password"/>
-                <div class="row ml-1 p-0 pt-2 justify-content-between">
+                <div class="row m-0 ml-1 p-0 pt-2 justify-content-between">
                     <div><input type="checkbox"/><span class="ml-2">记住密码</span></div>
                     <span class="mr-3"><a href="#">忘记密码？</a></span>
                 </div>
-                <div>
+                <div class="sin">
                     <button class="btn btn-success">登录</button>
+                    <button class="btn btn-light">注册</button>
                 </div>
             </div>
         </div>
+    </div>
         <!--right end-->
+    <!-- 1l end-->
+    <!-- 2l start-->
+    <div class="container p-0">
+        <div>
+            <span class="big">爱玩</span>
+            <hr/>
+        </div>
+        <div class="mt-3">
+            <div class="row m-0">
+                <div class="col-lg-6 col-sm-12 p-0 position-relative">
+                    <button class="position-absolute i_btn">foucs</button>
+                    <img class="g_img" src="../img/timg%20(1).jpg" alt=""/>
+                    <div class="j_img">
+                        <p class="big4 text-center">游戏名称</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iste.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-0 position-relative">
+                    <button class="position-absolute i_btn">foucs</button>
+                    <img class="g_img" src="../img/timg%20(2).jpg" alt=""/>
+                    <div class="j_img">
+                        <p class="big4 text-center">游戏名称</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iste.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-lg-6 col-sm-12 p-0 position-relative">
+                    <button class="position-absolute i_btn">foucs</button>
+                    <img class="g_img" src="../img/timg%20(5).png" alt=""/>
+                    <div class="j_img">
+                        <p class="big4 text-center">游戏名称</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iste.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-0 position-relative">
+                    <button class="position-absolute i_btn">foucs</button>
+                    <img class="g_img" src="../img/timg%20(4).jpg" alt=""/>
+                    <div class="j_img">
+                        <p class="big4 text-center">游戏名称</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--2l end-->
+    <!-- 3l start-->
+
+    <!-- 3l end-->
+    <!-- 4l start-->
+    <div>
+        <div class="">
+            <p class="center">
+                <img class="biao mb-2" src="../img/biao.png" alt=""/>
+                <span class="big">视频中心</span>
+            </p>
+        </div>
+        <div class="row m-0 p-0 w-100">
+            <div class="col-lg-4 text-center p-2 "><a href=""><img class="jump1" src="../img/video1.jpg" alt=""/></a>
+                <p class="big4">《仙剑奇侠传六》最终宣传视频</p>
+            </div>
+            <div class="col-lg-4 text-center p-2 "><a href=""><img class="jump2" src="../img/video2.jpg" alt=""/></a>
+                <p class="big4">《仙剑奇侠传六》最终宣传视频</p>
+            </div>
+            <div class="col-lg-4 text-center p-2"><a href=""><img class="jump3" src="../img/video3.jpg" alt=""/></a>
+                <p class="big4">《仙剑奇侠传六》最终宣传视频</p>
+            </div>
+        </div>
     </div>
 </div>
-<!--1l end-->
+    <!-- 4l end-->
+</div>
 <!--footer start-->
 <iframe src="footer.html" frameborder="0" scrolling="0" class="my_footer"></iframe>
 <!--footer end-->
 
+<script src="js/index_.js">
 
+</script>
 </body>
 </html>
