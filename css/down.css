@@ -1,0 +1,9 @@
+.b_img{
+    background: url(../../img/down_bgx0807.jpg) no-repeat;
+    background-size:100% ;
+}
+.b_img:before{
+    content: "";
+    display: block;
+    padding-top:100% ;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(245,245,245);
+}
+a{
+    color: #6c757d;
+    padding: 0.5rem 0.5rem !important;
+    font-size: 0.88rem;
+}
+.liang{
+    color: #6c757d;
+}
+.blac{
+color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid #d2d2d2;
+}
+.d2>ul{
+    border-bottom: 1px solid rgb(220,220,220);
+}
+.d2{
+    justify-content: space-between;
+}
